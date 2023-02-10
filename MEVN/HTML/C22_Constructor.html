@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+  </head>
+  <body>
+    <p id="demo"></p>
+    <script>
+        function test(first,second,last){
+            this.first=first;
+            this.second=second;
+        }
+
+        const obj1=new test("Manish","2","3");
+        document.getElementById("demo").innerHTML=obj1.first;
+    </script>
+  </body>
+</html>
