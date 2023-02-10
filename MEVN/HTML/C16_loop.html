@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+  </head>
+  <body>
+    <p id="demo" ></p>
+  </body>
+
+  <script>
+
+    const cars=["r","o","a","b","c"];
+    cars.sort();
+    let text="";
+    for(let i=0;i<cars.length;i++){
+        text+=cars[i]+ "<br>"
+    }
+    document.getElementById("demo").innerHTML=text;
+  </script>
+</html>
