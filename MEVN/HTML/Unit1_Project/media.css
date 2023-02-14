@@ -1,0 +1,28 @@
+@media only screen and (max-width:1000px){
+    /* body{
+        background:blueviolet;
+    } */
+    nav{
+        flex-direction:column;
+    }
+    .logo{
+        justify-content:center;
+        margin: 12px 0;
+    }
+    nav ul{
+        justify-content: center;
+        height:15vh;
+    }
+    .search{
+        justify-content:center;
+    }
+    .search input{
+    margin:0 16px;
+    }
+    .slider{
+        height: 30vh;
+    }
+    .card-item{
+        width:121px;
+    }
+}
