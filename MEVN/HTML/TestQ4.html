@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>title</title>>
+  </head>
+  <body>
+    <script>
+      function EvenOrOdd(number, callback) {
+        if (number % 2 === 0) {
+          return callback("even");
+        } else {
+          return callback("odd");
+        }
+      }
+      function printNumberType(result) {
+        console.log(`the given number is ${result}`);
+      }
+
+      EvenOrOdd(4, printNumberType); // prints "even"
+      EvenOrOdd(3, printNumberType); // prints "odd"
+    </script>
+  </body>
+</html>
