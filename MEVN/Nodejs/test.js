@@ -13,20 +13,20 @@
 
 
 // Performing Closure
-// function outerFunction(outerParam) {
-//     // Define a variable within the outer function
-//     const outerVar = "Hello, ";
-//     // Define the inner function within the outer function
-//     function innerFunction(innerParam) {
-//       // Use the outer variable within the inner function
-//       console.log(outerVar + innerParam + outerParam);
-//     }
-//     // Return the inner function
-//     return innerFunction;
-//   }
-//   // Call the outer function with a parameter
-//   const myClosure = outerFunction("world!");
-//   myClosure("How are you today?"); 
+function outerFunction(outerParam) {
+    // Define a variable within the outer function
+    const outerVar = "Hello, ";
+    // Define the inner function within the outer function
+    function innerFunction(innerParam) {
+      // Use the outer variable within the inner function
+      console.log(outerVar + innerParam + outerParam);
+    }
+    // Return the inner function
+    return innerFunction;
+  }
+  // Call the outer function with a parameter
+  const myClosure = outerFunction("world!");
+  myClosure("How are you today?"); 
   
 // Accessing the FilesStream module to read contents of a text file
 // var dt=require('./ownModule');
