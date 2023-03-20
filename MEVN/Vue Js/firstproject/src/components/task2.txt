@@ -1,0 +1,9 @@
+Model : The model represents the data and business logic of the application. It is responsible for managing data, validating user input, and performing calculations or operations on data. It may also interact with external data sources, such as databases or web services.
+View : The view is responsible for presenting the data to the user and handling user input. It represents the UI of the application, such as buttons, text boxes, and other controls. The view is typically implemented using HTML, CSS, and other UI frameworks.
+ViewModel: The ViewModel acts as an intermediary between the view and the model. It provides a way for the view to access and modify the data in the model, and it also provides a way for the model to notify the view of changes in the data. The ViewModel also contains presentation logic, such as formatting data for display, that is specific to the view.
+->the MVVM architecture works in practice:
+The user interacts with the view, such as by clicking a button or entering data into a form.
+The view notifies the ViewModel of the user's actions.
+The ViewModel retrieves data from the model, performs any necessary operations or calculations, and then updates the view with the results.
+If the user modifies the data in the view, the ViewModel updates the model with the changes.
+If the model data changes, the ViewModel updates the view with the new data.
