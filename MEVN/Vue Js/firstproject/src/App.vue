@@ -20,24 +20,30 @@
   <!-- <div id="app">
     <Main />
   </div>
-</template>
--->
+</template> -->
+
+
+<!-- <template>
+  <div>
+    <Main/>
+  </div>
+</template> -->
 <!-- <script> 
-// import HelloWorld from './components/HelloWorld.vue'
-// import Hello from './components/Task.vue'
-// import Hello1 from './components/TestTask2.vue'
-// import Main from './components/MainApp.vue'
+import HelloWorld from './components/HelloWorld.vue'
+import Hello from './components/Task.vue'
+import Hello1 from './components/TestTask2.vue'
+import Main from './components/MainApp.vue'
 
-// export default {
-//   name: 'App',
-//   components: {
-//     Main
-//     // Hello1
-//   }
-// }
-// </script> -->
-
-<!-- <style>
+export default {
+  name: 'App',
+  components: {
+    Main
+    // Hello1
+  }
+}
+ </script> -->
+<!-- 
+ <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -49,6 +55,8 @@
   margin-top: auto;
 }
 </style> -->
+
+
 <template>
   <div>
     <nav>
@@ -61,22 +69,28 @@
   </div>
 </template>
 
-<script>
+ <script>
 export default {
   name: 'App',
 };
 </script>
 
-<style>
+ <style>
 ul{
   display: flex; 
-justify-content: center;
+justify-content:end;
 list-style-type: none;
 background-color: azure;
+padding: 10px;
 
 }
-ul li{
+ ul li{
   padding: 10px;
- 
+  text-decoration: none;
+  
+}
+router-link{
+  text-decoration: none;
 }
 </style>
+
