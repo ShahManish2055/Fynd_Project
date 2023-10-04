@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width= , initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="Style.css">
+
+           
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <style>
+        .container{
+            /* background-color: cadetblue; */
+            border: 2px solid cadetblue;
+        }
+    </style>
+<body>
+   <div class="container">
+    <h2 class="py-3 text-center">Custom Form Classes</h2>
+    <div class="row py-3">
+        <div class="col">
+            <select name="" class="custom-select" multiple size=2 >
+                <option value="">Nepal</option>
+                <option value="">India</option>
+                <option value="">pakistan</option>
+                <option value="">srilanka</option>
+                <option value="">Bangladesh</option>
+            </select>
+            <select name="" class="custom-select custom-select-lg" >
+                <option value="">Nepal</option>
+                <option value="">India</option>
+                <option value="">pakistan</option>
+                <option value="">srilanka</option>
+                <option value="">Bangladesh</option>
+            </select>
+            <select name="" class="custom-select custom-select-sm" >
+                <option value="">Nepal</option>
+                <option value="">India</option>
+                <option value="">pakistan</option>
+                <option value="">srilanka</option>
+                <option value="">Bangladesh</option>
+            </select>
+        </div>
+
+        <div class="col">
+           <div class="custom-control cuatom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="customcheckbox1">
+            <label for="customcheckbox1" class=""custom-control-label>Books</label>
+           </div>
+           <div class="custom-control cuatom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="customcheckbox2">
+            <label for="customcheckbox2" class=""custom-control-label>sports</label>
+           </div>
+           <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="customcheckbox3">
+            <label for="customcheckbox3" class=""custom-control-label>music</label>
+           </div>
+
+           <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" name="gender" class="custom-control-input" id="customcheckbox4">
+            <label for="customcheckbox4" class=""custom-control-label>Male</label>
+           </div>
+
+           <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" name="gender"  class="custom-control-input" id="customcheckbox5">
+            <label for="customcheckbox5" class=""custom-control-label>Female</label>
+           </div>
+
+
+           <!-- it show the switch as a check box -->
+           <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="customcheckbox6">
+            <label for="customcheckbox6" class=""custom-control-label>sports</label>
+           </div>
+           <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="customcheckbox7">
+            <label for="customcheckbox7" class=""custom-control-label>music</label>
+           </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <input type="range" class="custom-range ">
+        </div>
+
+        <div class="col">
+            <div class="custom-file">
+                <input type="file" class="custom-file-input">
+                <label class="custom-file-label">Choose File</label>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row col-9">
+            <div class="col-3">
+            <div class="form-group">
+                <lable class="sr-only">Enter name</lable>
+                <input type="text" class="form-control is-valid" placeholder="Enter username..">
+                <div class="valid-feedback">Looks Good</div>
+            </div>
+            </div>
+
+            <div class="col-3">
+            <div class="form-group">
+                <lable class="sr-only">Password</lable>
+                <input type="text" class="form-control is-invalid" placeholder="password..">
+                <div class="invalid-feedback">Enter valid feedback</div> 
+                <!-- inplace of invalid-feedback we can use invalid-tooltip and its same for above also -->
+            </div>
+            </div>
+            <div class="col-3">
+            <button class="btn btn-primary my-3">Login</button>
+        </div>
+           </div> 
+       
+    
+   </div>
+</body>
+</html>

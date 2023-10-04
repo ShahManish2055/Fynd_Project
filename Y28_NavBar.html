@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+        /* Add this CSS to show the dropdown menu on hover */
+        .navbar .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+        </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <h2 class="py-3 text-center">Bootstrap Navbar Classes</h2>
+        <div class="row">
+            <div class="col">
+                <nav class ="navbar navbar-expand-sm navbar-light bg-light ">
+                    <a href="" class="navbar-brand">Shah Group</a>
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+<!-- --------------------- -->
+                <div class="collapse navbar-collapse justify-content-end" id="mynavbar">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">About Us</a>
+                            <div class="dropdown-menu bg-secondary text-w">
+                              <a href="Y27_NavClass.html" class="dropdown-item">Link One</a>
+                              <a href="#" class="dropdown-item">Link Two</a>
+                              <a href="#" class="dropdown-item">Link Three</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Blog</a>
+                        </li>
+                        
+                    </ul>
+                    <form class="form-inline " action="">
+                        <input type="search" class="form-control mr-sm-2 " placeholder="search">
+                        <button class="btn btn-outline-success  my-1">Search</button>
+                    </form>
+                </div
